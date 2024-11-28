@@ -86,7 +86,7 @@ print(f"Utilizzo del dispositivo: {device}")
 
 # Carica il dataset
 print("Caricamento del dataset...")
-dataset = load_dataset('csv', data_files='training_dataset_corrected.csv')
+dataset = load_dataset('csv', data_files='dataset.csv')
 
 print("Nomi delle colonne nel dataset:", dataset['train'].column_names)
 
